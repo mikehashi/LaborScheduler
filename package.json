@@ -1,0 +1,20 @@
+{
+  "name": "laborscheduler",
+  "version": "1.0.0",
+  "description": "Helping managers determine qualifications and skills need and availablility",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikehashi/LaborScheduler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mikehashi/LaborScheduler/issues"
+  },
+  "homepage": "https://github.com/mikehashi/LaborScheduler#readme"
+}
