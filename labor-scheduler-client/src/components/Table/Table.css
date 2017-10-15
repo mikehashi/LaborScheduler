@@ -1,0 +1,49 @@
+/*.table-overflow-container {
+  max-height: 545px;
+  border: 1px #DDDDDD solid;
+  border-radius: 4px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.table-overflow-container ul {
+  margin: 0;
+}
+
+.table-overflow-container li {
+  border-radius: 0px;
+  border-left: none;
+  border-right: none;
+}
+
+.table-overflow-container li * {
+  cursor: pointer;
+}
+
+.table-overflow-container li a {
+  color: #2A878C;
+}
+
+.table-overflow-container li:first-child {
+  border-top: none;
+}
+
+.table-overflow-container li:last-child {
+  border-bottom: none;
+}*/
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
